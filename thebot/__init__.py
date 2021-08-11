@@ -1,7 +1,6 @@
 import logging
 import time
 from telegraph import Telegraph
-from sample_config.py import Config
 from pyrogram import Client, errors
 StartTime = time.time()
 logging.basicConfig(level=logging.INFO)
